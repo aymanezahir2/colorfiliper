@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Bubbles&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    font-size: 16px;
+    background-color: #eee;
+}
+h1{
+    font-family: 'Rubik Bubbles', cursive;
+    font-size: 2rem;
+    color: gold;
+}
+header{
+    background-color: #fff;
+    padding: .2rem 8rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    user-select: none;
+    height: 3rem;
+    box-shadow: 5px 0 10px gray,-5px 0 10px gray;
+}
+
+.type-color {
+    display: flex;
+    justify-content: space-between;
+}
+h3{
+    margin-left: 10px;
+    padding: 8px 16px ;
+    border-radius:6px ;
+    cursor: pointer;
+}
+
+.left {
+    border:  2px #ff415d solid;
+    
+}
+.left:active{
+    margin-top: 2px;
+    border: inset 2px #ff415d solid;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 100px;
+}
+.color{
+    text-transform: capitalize;
+    color:#fff;
+    font-size: 2.8rem;
+    background-color: black;
+    font-weight: 900;
+    padding: 20px;
+    border-radius: 11px;
+    margin: 50px 0;
+}
+#echange{
+    text-transform: none;
+}
+.btn-change{
+    background-color: transparent;
+    border: 3px solid black;
+    border-radius: 6px;
+    padding: 8px 16px;
+    margin: 20px auto;
+    width: max-content;
+    cursor: pointer;
+    transition: 0.7s all;
+}
+.btn-change:hover{
+    background-color: black;
+    color: #eee;
+}
